@@ -1,0 +1,296 @@
+@import "./variable.scss";
+
+body {
+    font-family: $themeFontFamilyPrimary;
+    font-size: $themeFontSizePrimary;
+    font-weight: $themeFontWeightPrimary;
+    font-style: $themeFontStylePrimary;
+    color: $themeTextColor;
+    margin-bottom: 500px;
+}
+
+a {
+    text-decoration: $themeLinkTextDecoration;
+    color: $themeLinkColor;
+    background: $themeLinkBackground;
+	transition: $themeLinkTransition;
+}
+
+a:hover {
+    text-decoration: $themeLinkHoverTextDecoration;
+    color: $themeLinkHoverColor;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    border: 0;
+}
+
+.gf_container {
+    width: 1180px;
+    margin: 0px auto;
+}
+
+.gf_container-full {
+    padding: 0px 25px;
+    margin: 0px auto;
+}
+
+select:not([size]):not([multiple]) {
+    height: calc($themeFormFontSize + 2px);
+}
+
+.color--primary{
+	background: $themePrimaryColor;
+}
+.color--secondary{
+	background: $themeSecondaryColor;
+}
+.color--background{
+	background: $themeBackgroundColor;
+}
+.color--text{
+	background: $themeTextColor;
+}
+.color--border{
+	border-color: $themeBorderColor !important;
+}
+
+
+input, .gf_form-control, select, textarea {
+    display: block;
+    width: 100%;
+    line-height: 1.5;
+    border: none;
+    color: $themeFormColor;
+    padding: $themeFormPadding;
+    background: $themeFormBackground;
+    border-style: $themeFormBorderStyle;
+    border-width: $themeFormBorderWidth;
+    border-color: $themeFormBorderColor;
+    border-radius: $themeFormRadius;
+    box-shadow: $themeFormShadow;
+	letter-spacing: $themeFormletterspacing;
+
+    font-family: $themeFormFontFamily;
+    font-size: $themeFormFontSize;
+    font-weight: $themeFormFontWeight;
+    font-style: $themeFormFontStyle;
+
+    transition-property: $themeFormTransitionProperty;
+    transition-duration: $themeFormTransitionDuration;
+    transition-timing-function: $themeFormTransitionTimingFunction;
+    transition-delay: $themeFormTransitionDelay;
+}
+
+input:focus, 
+.gf_form-control:focus, 
+select:focus, 
+textarea:focus, 
+.input--focus{
+    outline: none;
+    color: $themeFormFocusColor;
+    background: $themeFormFocusBackground;
+    border-style: $themeFormFocusBorderStyle;
+    border-width: $themeFormFocusBorderWidth;
+    border-color: $themeFormFocusBorderColor;
+    border-radius: $themeFormFocusRadius;
+    box-shadow: $themeFormFocusShadow;
+}
+
+textarea{
+    display: block;
+    width: 100%;
+    line-height: 1.5;
+    border: none;
+    color: $themeFormColor;
+    padding: $themeFormPadding;
+    background: $themeFormBackground;
+    border-style: $themeFormBorderStyle;
+    border-width: $themeFormBorderWidth;
+    border-color: $themeFormBorderColor;
+    border-radius: $themeFormRadius;
+    box-shadow: $themeFormShadow;
+
+    font-family: $themeFormFontFamily;
+    font-size: $themeFormFontSize;
+    font-weight: $themeFormFontWeight;
+    font-style: $themeFormFontStyle;
+
+    transition-property: $themeFormTransitionProperty;
+    transition-duration: $themeFormTransitionDuration;
+    transition-timing-function: $themeFormTransitionTimingFunction;
+    transition-delay: $themeFormTransitionDelay;
+}
+
+button {
+    display: inline-block;
+    user-select: none;
+    cursor: pointer;
+    padding: $themeButtonPadding;
+    color: $themeButtonColor;
+    background: $themeButtonBackground;
+    border-style: $themeButtonBorderStyle;
+    border-width: $themeButtonBorderWidth;
+    border-color: $themeButtonBorderColor;
+    border-radius: $themeButtonRadius;
+    letter-spacing: $themeButtonspacing;
+    line-height: $themeButtonlineheight;
+    text-transform: $themeButtontexttransform;
+	
+
+    font-family: $themeButtonFontFamily;
+    font-size: $themeButtonFontSize;
+    font-weight: $themeButtonFontWeight;
+
+    transition-property: $themeButtonTransitionProperty;
+    transition-duration: $themeButtonTransitionDuration;
+    transition-timing-function: $themeButtonTransitionTimingFunction;
+    transition-delay: $themeButtonTransitionDelay;
+}
+
+button:hover {
+    color: $themeButtonHoverColor;
+    background: $themeButtonHoverBackground;
+    border-style: $themeButtonHoverBorderStyle;
+    border-width: $themeButtonHoverBorderWidth;
+    border-color: $themeButtonHoverBorderColor;
+    border-radius: $themeButtonHoverRadius;
+}
+
+button:focus {
+    outline: none;
+}
+
+.button--secondary {
+    display: inline-block;
+    user-select: none;
+    border: none;
+    cursor: pointer;
+    padding: $themeButtonSecondaryPadding;
+    color: $themeButtonSecondaryColor;
+    background: $themeButtonSecondaryBackground;
+    border-style: $themeButtonSecondaryBorderStyle;
+    border-width: $themeButtonSecondaryBorderWidth;
+    border-color: $themeButtonSecondaryBorderColor;
+    border-radius: $themeButtonSecondaryRadius;
+
+    font-family: $themeButtonSecondaryFontFamily;
+    font-size: $themeButtonSecondaryFontSize;
+    font-weight: $themeButtonSecondaryFontWeight;
+
+    transition-property: $themeButtonSecondaryTransitionProperty;
+    transition-duration: $themeButtonSecondaryTransitionDuration;
+    transition-timing-function: $themeButtonSecondaryTransitionTimingFunction;
+    transition-delay: $themeButtonSecondaryTransitionDelay;
+}
+
+.button--secondary:hover {
+    color: $themeButtonSecondaryHoverColor;
+    background: $themeButtonSecondaryHoverBackground;
+    border-style: $themeButtonSecondaryHoverBorderStyle;
+    border-width: $themeButtonSecondaryHoverBorderWidth;
+    border-color: $themeButtonSecondaryHoverBorderColor;
+    border-radius: $themeButtonSecondaryHoverRadius;
+    opacity: $themeButtonSecondaryOpacity;
+}
+
+h1 {
+    font-family: $themeH1FontFamily;
+    color: $themeH1FontColor;
+    font-size: $themeH1FontSize;
+    background: $themeH1FontBackground;
+    font-weight: $themeH1FontWeight;
+	letter-spacing: $themeH1Spacing;
+}
+
+h2 {
+    font-family: $themeH2FontFamily;
+    color: $themeH2FontColor;
+    font-size: $themeH2FontSize;
+    background: $themeH2FontBackground;
+    font-weight: $themeH2FontWeight;
+	letter-spacing: $themeH1Spacing;
+}
+
+h3 {
+    font-family: $themeH3FontFamily;
+    color: $themeH3FontColor;
+    font-size: $themeH3FontSize;
+    background: $themeH3FontBackground;
+    font-weight: $themeH3FontWeight;
+	letter-spacing: $themeH1Spacing;
+}
+
+h4 {
+    font-family: $themeH4FontFamily;
+    color: $themeH4FontColor;
+    font-size: $themeH4FontSize;
+    background: $themeH4FontBackground;
+    font-weight: $themeH4FontWeight;
+	letter-spacing: $themeH1Spacing;
+}
+
+h5 {
+    font-family: $themeH5FontFamily;
+    color: $themeH5FontColor;
+    font-size: $themeH5FontSize;
+    background: $themeH5FontBackground;
+    font-weight: $themeH5FontWeight;
+	letter-spacing: $themeH1Spacing;
+}
+
+h6 {
+    font-family: $themeH6FontFamily;
+    color: $themeH6FontColor;
+    font-size: $themeH6FontSize;
+    background: $themeH6FontBackground;
+    font-weight: $themeH6FontWeight;
+	letter-spacing: $themeH1Spacing;
+}
+
+@media (max-width: 1260px) {
+    .gf_container {
+        width: 100%;
+        padding: 0px 30px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .gf_container {
+        width: 100%;
+        padding: 0px 30px;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .gf_container-full {
+        padding: 0px 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: $themeFontSizePrimary_sm;
+        font-weight: $themeFontWeightPrimary_sm;
+    }
+
+    .gf_container {
+        width: 100%;
+        padding: 0px 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        font-size: $themeFontSizePrimary_xs;
+        font-weight: $themeFontWeightPrimary_xs;
+    }
+
+    .gf_container {
+        width: 100%;
+        padding: 0px 15px;
+    }
+}

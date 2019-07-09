@@ -1,0 +1,164 @@
+<!doctype html>
+<html class="no-js supports-no-cookies" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900,900i|Montserrat:400,500,600,700,800,900&amp;subset=vietnamese" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/scss/reset.scss">
+    <link rel="stylesheet" type="text/css" href="/scss/gird.scss">
+    <link rel="stylesheet" type="text/css" href="/scss/flex.scss">
+    <link rel="stylesheet" type="text/css" href="/scss/theme.scss">
+    <link rel="stylesheet" type="text/css" href="/scss/style.scss">
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Oswald', sans-serif;
+            padding: 40px;
+        }
+
+        .wrapper {
+            max-width: 800px;
+            margin: 0px auto;
+        }
+		
+		
+		
+        .padding-10 {
+            display: block;
+            width: 100%;
+            height: 10px;
+        }
+
+        .demo-title {
+            margin: 50px 0;
+            font-size: 30px;
+        }
+
+        .demo-sub-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .demo-item {
+            padding-top: 20px;
+            margin-top: 20px;
+            border-top: solid 1px #ccc;
+        }
+
+        .demo-color {
+            display: inline-flex;
+            flex-direction: column;
+            align-items: center;
+            margin-right: 20px;
+        }
+
+        .demo-color span {
+            display: inline-block;
+            width: 70px;
+            height: 70px;
+            border-radius: 100%;
+            border: solid 1px #ccc;
+        }
+
+        .demo-color small {
+            font-size: 14px;
+        }
+		p, h1,h2,h3,h4,h5,h6{
+			margin-bottom: 20px;
+		}
+		
+		
+		
+		
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1 class="demo-title">Design a global test version</h1>
+        <div class="demo-item" id="color">
+            <h1 class="demo-sub-title">Color</h1>
+            <div>
+                <div class="demo-color">
+                    <span class="color--primary"></span>
+                    <small>Primary color</small>
+                </div>
+                <div class="demo-color">
+                    <span class="color--secondary"></span>
+                    <small>Secondary color</small>
+                </div>
+            </div>
+            <span class="padding-10"></span>
+            <div>
+                <div class="demo-color">
+                    <span class="color--background"></span>
+                    <small>Background color</small>
+                </div>
+                <div class="demo-color">
+                    <span class="color--text"></span>
+                    <small>Text color</small>
+                </div>
+                <div class="demo-color">
+                    <span class="color--border"></span>
+                    <small>Border color</small>
+                </div>
+                <div class="demo-color">
+                    <span class="color--shadow"></span>
+                    <small>Shadow color</small>
+                </div>
+            </div>
+        </div>
+        <div class="demo-item" id="font">
+            <h1 class="demo-sub-title">Font</h1>
+            <p class="font--primary">This text is a short inline quotation</p>
+            <p class="font--secondary">This text is a short inline quotation</p>
+        </div>
+        <div class="demo-item" id="link">
+            <h1 class="demo-sub-title">Link</h1>
+            <p class="l-"><a href="">link ...............</a></p>
+            <p class="l-"><a href="">link ...............</a></p>
+			<p class="l-"><a href="">link ...............</a></p>
+			<p class="l-"><a href="">link ...............</a></p>
+        </div>
+        <div class="demo-item" id="link">
+            <h1 class="demo-sub-title">Headding</h1>
+            <h1>This text is a short inline quotation</h1>
+            <h2>This text is a short inline quotation</h2>
+            <h3>This text is a short inline quotation</h3>
+            <h4>This text is a short inline quotation</h4>
+            <h5>This text is a short inline quotation</h5>
+            <h6>This text is a short inline quotation</h6>
+        </div>
+        <div class="demo-item" id="button">
+            <h1 class="demo-sub-title">Button</h1>
+            <button>Button Primary</button>
+            <span class="padding-10"></span>
+            <span class="padding-10"></span>
+            <button class="button--secondary">Button Secondary</button>
+            <span class="padding-10"></span>
+        </div>
+        <div class="demo-item" id="button">
+            <h1 class="demo-sub-title">Form</h1>
+            <input required="" type="text" id="" name="" placeholder="John Doe"  value="">
+            <span class="padding-10"></span>
+            <input class="input--focus" value="Input focus" />
+            <span class="padding-10"></span>
+            <textarea class="textarea">This text is a short inline quotation</textarea>
+            <span class="padding-10"></span>
+            <select class="select" value="Default value">
+                <option>Value 1</option>
+                <option>Value 2</option>
+                <option>Value 3</option>
+            </select>
+        </div>
+    </div>
+</body>
+
+</html>

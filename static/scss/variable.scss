@@ -1,0 +1,296 @@
+/******************************************************* Color ****************************************************/
+$themePrimaryColor: #999;
+$themeSecondaryColor: #b59677;
+$themeBackgroundColor: #ffffff;
+$themeTextColor: #788188;
+
+$themeBorderColor: #b59677;
+$themeShadowColor: '';
+
+$themeSuccessColor: #6CC945;
+$themeErrorColor: #F85457;
+
+/******************************************************* Font ****************************************************/
+$themeFontFamilyPrimary: 'Lato';
+$themeFontSizePrimary: 16px;
+$themeFontWeightPrimary: 400;
+$themeFontStylePrimary: normal;
+// Font Prrimary Laptop
+$themeFontSizePrimary_md: 16px;
+$themeFontWeightPrimary_md: 400;
+// Font Prrimary Tablet
+$themeFontSizePrimary_sm: 15px;
+$themeFontWeightPrimary_sm: 400;
+// Font Prrimary Mobile
+$themeFontSizePrimary_xs: 14px;
+$themeFontWeightPrimary_xs: 400;
+
+
+// Font Secondary
+$themeFontFamilySecondary: 'Lato';
+$themeFontSizeSecondary: 16px;
+$themeFontWeightSecondary: 400;
+$themeFontStyleSecondary: normal;
+// Font Secondary Laptop
+$themeFontSizeSecondary-md: 16px;
+$themeFontWeightSecondary-md: 400;
+// Font Secondary Tablet
+$themeFontSizeSecondary-sm: 16px;
+$themeFontWeightSecondary-sm: 400;
+// Font Secondary Mobile
+$themeFontSizeSecondary-xs: 16px;
+$themeFontWeightSecondary-xs: 400;
+
+
+/******************************************************* Link ****************************************************/
+$themeLinkTextDecoration: none;
+$themeLinkColor: #222;
+$themeLinkBackground: transparent;
+$themeLinkFontSize: 14px;
+$themeLinkFontStyle: normal;
+$themeLinkTransition: all .3s;
+// Link Laptop
+$themeLinkFontSize-md: 16px;
+// Link Tablet
+$themeLinkFontSize-sm: 15px;
+// Link Mobile
+$themeLinkFontSize-xs: 14px;
+
+// Link hover
+$themeLinkHoverTextDecoration: none;
+$themeLinkHoverColor: #b59677;
+$themeLinkHoverBackground: transparent;
+
+/******************************************************* Headding ****************************************************/
+// H1
+$themeH1FontFamily: 'Montserrat';
+$themeH1FontColor: #4d5959;
+$themeH1FontSize: 48px;
+$themeH1FontBackground: inherit;
+$themeH1FontWeight: inherit;
+$themeH1Spacing: .5px;
+// H1 Laptop
+$themeH1FontColor-md: inherit;
+$themeH1FontSize-md: '2.33333em';
+// H1 Tablet
+$themeH1FontColor-sm: inherit;
+$themeH1FontSize-sm: '2.13333em';
+// H1 Mobile
+$themeH1FontColor-xs: inherit;
+$themeH1FontSize-xs: '2.13333em';
+
+// H2
+$themeH2FontFamily: 'Montserrat';
+$themeH2FontColor: #4d5959;
+$themeH2FontSize: 2.0581em;
+$themeH2FontBackground: inherit;
+$themeH2FontWeight: inherit;
+// H2 Laptop
+$themeH2FontColor-md: inherit;
+$themeH2FontSize-md: '1.33333em';
+// H2 Tablet
+$themeH2FontColor-sm: inherit;
+$themeH2FontSize-sm: '1.2em';
+// H2 Mobile
+$themeH2FontColor-xs: inherit;
+$themeH2FontSize-xs: '1.2em';
+
+// H3
+$themeH3FontFamily: 'Montserrat';
+$themeH3FontColor: #4d5959;
+$themeH3FontSize: 1.618em;
+$themeH3FontBackground: inherit;
+$themeH3FontWeight: inherit;
+// H3 Laptop
+$themeH3FontColor-md: inherit;
+$themeH3FontSize-md: '1.73333em';
+// H3 Tablet
+$themeH3FontColor-sm: inherit;
+$themeH3FontSize-sm: '1.33333em';
+// H3 Mobile
+$themeH3FontColor-xs: inherit;
+$themeH3FontSize-xs: '1.33333em';
+
+// H4
+$themeH4FontFamily: 'Montserrat';
+$themeH4FontColor: #4d5959;
+$themeH4FontSize: 20px;
+$themeH4FontBackground: inherit;
+$themeH4FontWeight: inherit;
+// H4 Laptop
+$themeH4FontColor-md: inherit;
+$themeH4FontSize-md: '1.13333em';
+// H4 Tablet
+$themeH4FontColor-sm: inherit;
+$themeH4FontSize-sm: '1em';
+// H4 Mobile
+$themeH4FontColor-xs: inherit;
+$themeH4FontSize-xs: '1em';
+
+// H5
+$themeH5FontFamily: 'Montserrat';
+$themeH5FontColor: #4d5959;
+$themeH5FontSize: 16px;
+$themeH5FontBackground: inherit;
+$themeH5FontWeight: inherit;
+// H5 Laptop
+$themeH5FontColor-md: inherit;
+$themeH5FontSize-md: '1em';
+// H5 Tablet
+$themeH5FontColor-sm: inherit;
+$themeH5FontSize-sm: '0.86667em';
+// H5 Mobile
+$themeH5FontColor-xs: inherit;
+$themeH5FontSize-xs: '0.86667em';
+
+// H6
+$themeH6FontFamily: 'Montserrat';
+$themeH6FontColor: #4d5959;
+$themeH6FontSize: 12px;
+$themeH6FontBackground: inherit;
+$themeH6FontWeight: inherit;
+// H6 Laptop
+$themeH6FontColor-md: inherit;
+$themeH6FontSize-md: '0.93333em';
+// H6 Tablet
+$themeH6FontColor-sm: inherit;
+$themeH6FontSize-sm: '0.8em';
+// H6 Mobile
+$themeH6FontColor-xs: inherit;
+$themeH6FontSize-xs: '0.8em';
+
+/******************************************************* Button ****************************************************/
+$themeButtonPadding: 0 27px 0 30px;
+$themeButtonColor: #b59677;
+$themeButtonBackground: #fff;
+$themeButtonBorderStyle: solid;
+$themeButtonBorderWidth: 1px;
+$themeButtonBorderColor: #b59677;
+$themeButtonRadius: 0px;
+$themeButtonFontFamily: 'Lato';
+$themeButtonFontSize: 11px;
+$themeButtonspacing: 3px;
+$themeButtonFontWeight: 400; 
+$themeButtonlineheight: 40px; 
+$themeButtontexttransform: uppercase; 
+
+
+$themeButtonTransitionProperty: all;
+$themeButtonTransitionDuration: 0.3s;
+$themeButtonTransitionTimingFunction: ease;
+$themeButtonTransitionDelay: 0s;
+
+// Button Laptop
+$themeButtonPadding-md: '';
+$themeButtonColor-md: '';
+$themeButtonBackground-md: '';
+$themeButtonRadius-md: '';
+$themeButtonFontSize-md: '';
+// Button Tablet
+$themeButtonPadding-sm: '';
+$themeButtonColor-sm: #fff;
+$themeButtonBackground-sm: '';
+$themeButtonRadius-sm: '';
+$themeButtonFontSize-sm: '';
+// Button Mobile
+$themeButtonPadding-xs: '';
+$themeButtonColor-xs: '';
+$themeButtonBackground-xs: '';
+$themeButtonRadius-xs: '';
+$themeButtonFontSize-xs: '';
+
+// Button hover
+$themeButtonHoverColor: #fff;
+$themeButtonHoverBackground: #b59677;
+$themeButtonHoverBorderStyle: solid;
+$themeButtonHoverBorderWidth: 1px;
+$themeButtonHoverBorderColor: #b59677;
+$themeButtonHoverRadius: 0;
+
+// Button Secondary
+$themeButtonSecondaryPadding:  0 27px 0 30px;
+$themeButtonSecondaryColor: #fff;
+$themeButtonSecondaryBackground: #b59677;
+$themeButtonSecondaryBorderStyle: solid;
+$themeButtonSecondaryBorderWidth: 1px;
+$themeButtonSecondaryBorderColor: #b59677;
+$themeButtonSecondaryRadius: 0px;
+$themeButtonSecondaryFontFamily: 'Lato';
+$themeButtonSecondaryFontSize: 11px;
+$themeButtonSecondaryFontWeight: 400;
+$themeButtonSecondaryTransitionProperty: all;
+$themeButtonSecondaryTransitionDuration: 0.3s;
+$themeButtonSecondaryTransitionTimingFunction: ease;
+$themeButtonSecondaryTransitionDelay: 0s;
+
+// ButtonSecondary Laptop
+$themeButtonSecondaryPadding-md: 0.8em 1em;
+$themeButtonSecondaryColor-md: '#fff';
+$themeButtonSecondaryBackground-md: '#6CC945';
+$themeButtonSecondaryRadius-md: '';
+$themeButtonSecondaryFontSize-md: '';
+// ButtonSecondary Tablet
+$themeButtonSecondaryPadding-sm: '0.8em 1em';
+$themeButtonSecondaryColor-sm: '#fff';
+$themeButtonSecondaryBackground-sm: '#6CC945';
+$themeButtonSecondaryRadius-sm: '';
+$themeButtonSecondaryFontSize-sm: '';
+// ButtonSecondary Mobile
+$themeButtonSecondaryPadding-xs: '0.8em 1em';
+$themeButtonSecondaryColor-xs: '#fff';
+$themeButtonSecondaryBackground-xs: '#6CC945';
+$themeButtonSecondaryRadius-xs: '';
+$themeButtonSecondaryFontSize-xs: '';
+
+// Button Secondary hover
+$themeButtonSecondaryHoverColor: #fff;
+$themeButtonSecondaryHoverBackground: #b59677;
+$themeButtonSecondaryHoverBorderStyle: 'inherit';
+$themeButtonSecondaryHoverBorderWidth: 'inherit';
+$themeButtonSecondaryHoverBorderColor: 'inherit';
+$themeButtonSecondaryHoverRadius: 'inherit';
+$themeButtonSecondaryOpacity: .8;
+
+/******************************************************* Form ****************************************************/
+$themeFormPadding: 0.7em 1rem;
+$themeFormColor: #999;
+$themeFormBackground: transparent;
+$themeFormBorderStyle: solid;
+$themeFormBorderWidth: 1px;
+$themeFormBorderColor: #e3e3e3;
+$themeFormRadius: 0px;
+$themeFormShadow: '';
+$themeFormFontFamily: 'Lato';
+$themeFormFontSize: 13px;
+$themeFormFontWeight: 400;
+$themeFormletterspacing: 1px;
+$themeFormFontStyle: normal;
+$themeFormTransitionProperty: all;
+$themeFormTransitionDuration: 0.3s;
+$themeFormTransitionTimingFunction: ease;
+$themeFormTransitionDelay: 0s;
+
+// Input Laptop
+$themeFormPadding-md: 0.7em 1em;
+$themeFormBackground-md: #6CC945;
+$themeFormRadius-md: #6CC945;
+$themeFormFontSize-md: '';
+// Input Tablet
+$themeFormPadding-sm: '0.7em 1em';
+$themeFormBackground-sm: '#6CC945';
+$themeFormRadius-sm: '#6CC945';
+$themeFormFontSize-sm: '';
+// Input Mobile
+$themeFormPadding-xs: '0.7em 1em';
+$themeFormBackground-xs: '#6CC945';
+$themeFormRadius-xs: '#6CC945';
+$themeFormFontSize-xs: '';
+
+// Input Focus
+$themeFormFocusColor: #999;
+$themeFormFocusBackground: transparent;
+$themeFormFocusBorderStyle: solid;
+$themeFormFocusBorderWidth: 1px;
+$themeFormFocusBorderColor: #b59677;
+$themeFormFocusRadius: 0px;
+$themeFormFocusShadow: 'inherit';
