@@ -996,8 +996,7 @@
             this.settings = {};
             var $element = jQuery(element);
             var _this = this;
-            var _productsJson = [
-                {
+            var _productsJson = [{
                     "id": 2633923231829,
                     "title": "5-PACK OF SEASHELL AND STONE BRACELETS",
                     "handle": "5-pack-of-seashell-and-stone-bracelets",
@@ -1016,8 +1015,7 @@
                     "compare_at_price_min": 22200,
                     "compare_at_price_max": 100000000,
                     "compare_at_price_varies": true,
-                    "variants": [
-                        {
+                    "variants": [{
                             "id": 22774438101077,
                             "title": "12 / WHITE",
                             "option1": "12",
@@ -1354,8 +1352,7 @@
                     "compare_at_price_min": 20000,
                     "compare_at_price_max": 20000,
                     "compare_at_price_varies": false,
-                    "variants": [
-                        {
+                    "variants": [{
                             "id": 22774506160213,
                             "title": "S / ORANGE",
                             "option1": "S",
@@ -1687,8 +1684,7 @@
                     "compare_at_price_min": 20000,
                     "compare_at_price_max": 20000,
                     "compare_at_price_varies": false,
-                    "variants": [
-                        {
+                    "variants": [{
                             "id": 22774502752341,
                             "title": "S / ORANGE",
                             "option1": "S",
@@ -2020,8 +2016,7 @@
                     "compare_at_price_min": 20000,
                     "compare_at_price_max": 20000,
                     "compare_at_price_varies": false,
-                    "variants": [
-                        {
+                    "variants": [{
                             "id": 22774490529877,
                             "title": "S / ORANGE",
                             "option1": "S",
@@ -2353,30 +2348,28 @@
                     "compare_at_price_min": 5000000,
                     "compare_at_price_max": 5000000,
                     "compare_at_price_varies": false,
-                    "variants": [
-                        {
-                            "id": 22843282686037,
-                            "title": "Default Title",
-                            "option1": "Default Title",
-                            "option2": null,
-                            "option3": null,
-                            "sku": "",
-                            "requires_shipping": true,
-                            "taxable": true,
-                            "featured_image": null,
-                            "available": true,
-                            "name": "test product",
-                            "public_title": null,
-                            "options": [
-                                "Default Title"
-                            ],
-                            "price": 20000000,
-                            "weight": 0,
-                            "compare_at_price": 5000000,
-                            "inventory_management": "shopify",
-                            "barcode": ""
-                        }
-                    ],
+                    "variants": [{
+                        "id": 22843282686037,
+                        "title": "Default Title",
+                        "option1": "Default Title",
+                        "option2": null,
+                        "option3": null,
+                        "sku": "",
+                        "requires_shipping": true,
+                        "taxable": true,
+                        "featured_image": null,
+                        "available": true,
+                        "name": "test product",
+                        "public_title": null,
+                        "options": [
+                            "Default Title"
+                        ],
+                        "price": 20000000,
+                        "weight": 0,
+                        "compare_at_price": 5000000,
+                        "inventory_management": "shopify",
+                        "barcode": ""
+                    }],
                     "images": [
                         "//cdn.shopify.com/s/files/1/0089/5890/2357/products/v1_8827c63f-f614-4535-8d5a-04b13498a3cd.jpg?v=1562646073",
                         "//cdn.shopify.com/s/files/1/0089/5890/2357/products/v2_5c7fa988-5e1c-4518-82ad-0db86b4c94a1.jpg?v=1562646074",
@@ -2409,30 +2402,28 @@
                     "compare_at_price_min": 5000000,
                     "compare_at_price_max": 5000000,
                     "compare_at_price_varies": false,
-                    "variants": [
-                        {
-                            "id": 22843282686037,
-                            "title": "Default Title",
-                            "option1": "Default Title",
-                            "option2": null,
-                            "option3": null,
-                            "sku": "",
-                            "requires_shipping": true,
-                            "taxable": true,
-                            "featured_image": null,
-                            "available": true,
-                            "name": "test product",
-                            "public_title": null,
-                            "options": [
-                                "Default Title"
-                            ],
-                            "price": 20000000,
-                            "weight": 0,
-                            "compare_at_price": 5000000,
-                            "inventory_management": "shopify",
-                            "barcode": ""
-                        }
-                    ],
+                    "variants": [{
+                        "id": 22843282686037,
+                        "title": "Default Title",
+                        "option1": "Default Title",
+                        "option2": null,
+                        "option3": null,
+                        "sku": "",
+                        "requires_shipping": true,
+                        "taxable": true,
+                        "featured_image": null,
+                        "available": true,
+                        "name": "test product",
+                        "public_title": null,
+                        "options": [
+                            "Default Title"
+                        ],
+                        "price": 20000000,
+                        "weight": 0,
+                        "compare_at_price": 5000000,
+                        "inventory_management": "shopify",
+                        "barcode": ""
+                    }],
                     "images": [
                         "//cdn.shopify.com/s/files/1/0089/5890/2357/products/v1_8827c63f-f614-4535-8d5a-04b13498a3cd.jpg?v=1562646073",
                         "//cdn.shopify.com/s/files/1/0089/5890/2357/products/v2_5c7fa988-5e1c-4518-82ad-0db86b4c94a1.jpg?v=1562646074",
@@ -2448,6 +2439,7 @@
                 }
             ];
             var __timeoutOpen;
+            var _listProductShow = [];
             this.init = function () {
                 this.settings = jQuery.extend({}, defaults, options);
                 _this.eventNotification();
@@ -2455,18 +2447,39 @@
             }
 
             this.BuyTime = function () {
-                return  Math.floor(Math.random() * (59 - 1 + 1)) + 1;
+
+                return Math.floor(Math.random() * (59 - 1 + 1)) + 1;
             }
 
             this.getRandomProduct = function () {
-                var rand = _productsJson[Math.floor(Math.random() * _productsJson.length)];
+                //var rand = _productsJson[Math.floor(Math.random() * _productsJson.length)];
+                // console.log('_listProductShow ', _listProductShow)
+                var rand;
+                if (_listProductShow.length == 0) {
+                    rand = _productsJson[Math.floor(Math.random() * _productsJson.length)];
+                } else {
+                    var listItems = [];
+                    for (var i = 0; i < _productsJson.length; i++) {
+                        var item = _productsJson[i];
+
+                        for (let iProduct = 0; iProduct < _listProductShow.length; iProduct++) {
+                            var element = _listProductShow[iProduct];
+
+                            if (item.id != element.product.id) {
+                                //listItems.push(item);
+                            }
+                        }
+                    }
+                    rand = listItems[Math.floor(Math.random() * listItems.length)];
+                }
+
                 var rand_variant = null;
                 if (rand.variants.length >= 2) {
                     var variants = [];
 
                     for (var index = 0; index < rand.variants.length; index++) {
                         const product = rand.variants[index];
-                        if(product.title != "Default Title"){
+                        if (product.title != "Default Title") {
                             variants.push(product);
                         }
                     }
@@ -2481,31 +2494,28 @@
 
             this.addProperties = function ($html, product) {
                 // product.title
-                if(_this.settings.classNameProduct) {
-                    if(product.gt_Product == true) {
-                        var $title = $html.find(_this.settings.classNameProduct);
-                        if ($title && $title.length) {
-                            $title.html(product.title);
-                        }
-                    }else{
-                        $html.find(_this.settings.classNameProduct).html(product.gt_titleProduct);
+                if (_this.settings.classNameProduct) {
+                    var $title = $html.find(_this.settings.classNameProduct);
+                    if ($title && $title.length) {
+                        $title.html(product.product.title);
                     }
                 }
             }
 
             this.openNotification = function () {
                 _timeoutOpen = setTimeout(function () {
-                    $element.find("#gf_notification").removeClass(classHide);
+                    $element.find("#gf_notification").removeClass(_this.settings.classHide);
                     var $html = jQuery(_this.settings.htmlNotification);
                     _this.addProperties($html, _this.getRandomProduct());
                     $element.find('#gf_notification').html($html);
+                    _listProductShow.push(_this.getRandomProduct())
                     _this.closeNotification();
                 }, _this.settings.timeOpenNotification);
             }
 
             this.closeNotification = function () {
                 setTimeout(function () {
-                    $element.find("#gf_notification").addClass(classHide);
+                    $element.find("#gf_notification").addClass(_this.settings.classHide);
                     _this.openNotification();
                 }, _this.settings.timeCloseNotification);
             }
@@ -2513,7 +2523,7 @@
             this.eventNotification = function () {
                 _this.openNotification();
                 $element.find(".btn_clone-notifi").click(function () {
-                    $("#gf_notification").addClass(classHide);
+                    $("#gf_notification").addClass(_this.settings.classHide);
                     clearTimeout(_timeoutOpen);
                     _this.openNotification();
                 })
@@ -2535,7 +2545,7 @@
         classNameProduct: '.gf_titleProduct',
         classPriceProduct: '.gr_priceProduct',
         classByTime: '.gfBuytime',
-        timeOpenNotification: 3000,
+        timeOpenNotification: 5000,
         timeCloseNotification: 3000,
         classHide: 'hide-left'
     });
